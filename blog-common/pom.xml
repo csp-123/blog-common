@@ -23,7 +23,7 @@
     </properties>
 
     <modules>
-
+        <module>yiyan</module>
         <module>onePic</module>
     </modules>
     <build>

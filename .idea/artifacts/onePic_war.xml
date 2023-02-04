@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="onePic:war">
+    <output-path>$PROJECT_DIR$/blog-common/onePic/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>onePic</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="onePic-2.7.2.war">
+      <element id="artifact" artifact-name="onePic:war exploded" />
+    </root>
+  </artifact>
+</component>
