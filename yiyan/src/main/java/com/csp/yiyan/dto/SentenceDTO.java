@@ -43,7 +43,7 @@ public class SentenceDTO {
                 .setSentence(dto.getSentence())
                 .setSource(dto.getSource())
                 .setType(dto.getType())
-                .setIsDelete(CommonStatusEnum.NO.getCode())
+                .setIsDelete(CommonStatusEnum.NO.getCode().byteValue())
                 .setCreateTime(new Date())
                 .setId(dto.getId());
     }

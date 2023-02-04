@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: defaultDataSource
+    url: jdbc:mysql://101.42.35.190:3306/onepic?serverTimezone=UTC
+    username: onePic
+    password: tRiFfWBHYkRYKYex
+
+onePic:
+  picStoragePath: /csp/website/imgs
+  nginxRequestPath: https://www.cccsp.cc:9090/webimg/
+

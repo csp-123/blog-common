@@ -20,19 +20,19 @@ public enum CommonStatusEnum {
     /**
      * 否
      */
-    NO(0, "否");
+    NO( 0, "否");
 
     /**
      * 状态码
      */
-    private Byte code;
+    private Integer code;
 
     /**
      * 描述
      */
     private String desc;
 
-    CommonStatusEnum(Byte code, String desc) {
+    CommonStatusEnum(Integer code, String desc) {
         this.code = code;
         this.desc = desc;
     }
